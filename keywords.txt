@@ -1,0 +1,9 @@
+RCChannel KEYWORD1
+begin KEYWORD2
+setMap KEYWORD2
+setDeadZone KEYWORD2
+disableMap KEYWORD2
+disableDeadZone KEYWORD2
+pwmInterrupt KEYWORD2
+getDataFromRC KEYWORD2
+lastDataFromRC KEYWORD2
