@@ -130,9 +130,9 @@ int RCChannel::getMappedData() {
 	if (_useMap) {
 		int mapped = map(_channelData,_mapLow,_mapHigh,_minMap,_maxMap);
 		mapped = constrain(mapped,_minMap,_maxMap);
-	if (mapped > _deadZoneMin && mapped < _deadZoneMax)
-		return _deadZoneValue;
-	return mapped;
+		if (_useDeadZone && mapped > _deadZoneMin && mapped < _deadZoneMax)
+			return _deadZoneValue;
+		return mapped;
 	} else {
 		return _channelData;
 	}
