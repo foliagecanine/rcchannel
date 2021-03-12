@@ -3,8 +3,8 @@
 A library to decode PWM RC signals
 
 ## Usage
-The RCChannel library is for use with Remote Control systems which have a connector similar to a servo connector:
-```|S|+|-|``` 
+The RCChannel library is for use with Remote Control systems which have a connector similar to a servo connector:  
+```|S|+|-|```  
 Where 'S' is signal, '+' is VCC (usually 5V), and '-' is ground.
 
 The signal pin must produce a PWM signal and be connected to an interrupt-capable digital pin. For a table of interrupt-capable pins, refer to https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
