@@ -11,7 +11,7 @@ The signal pin must produce a PWM signal and be connected to an interrupt-capabl
 ## Installation
 Start the Ardiono software and select Sketch->Include Library ->Add ZIP library and select the ZIP file containing the RCChannel library. 
 ## Code
-Documentation to be added.  
+See the [Wiki on GitHub](https://github.com/foliagecanine/rcchannel/wiki) for documentation.
 Examples are provided. To open them, start the Arduino software and select File->Examples->RCChannel for a list of examples.  
 It is recommended to start with the BasicRC example to learn how to calibrate your receiver.
 ## License
